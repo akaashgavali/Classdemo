@@ -6,21 +6,21 @@ using System.Threading.Tasks;
 
 namespace Classdemo
 {
-    internal class product
+    internal class Course
     {
         private int id;
         private string name;
-        private int price;
+        private int fees;
 
-        public void Add(int id,string name,int price)
+        public void Add(int id, string name, int fees)
         {
             this.id = id;
             this.name = name;
-            this.price = price;
+            this.fees = fees;
         }
         public string Print()
         {
-            return $"product:{id}/{name}/{price}";
+            return $"product:{id}/{name}/{fees}";
         }
     }
 }
