@@ -67,15 +67,43 @@ namespace Classdemo
             //Console.WriteLine(e1);
             //Console.WriteLine(e2);
 
-           // using property initializer student
-            Propertyemployee e1 = new Propertyemployee();
-            e1.Id = 345;
-            e1.Name = "sagar";
-            e1.Salary = 65000;
-            Console.WriteLine(e1);
+            //// using property initializer student
+            // Propertyemployee e1 = new Propertyemployee();
+            // e1.Id = 345;
+            // e1.Name = "sagar";
+            // e1.Salary = 65000;
+            // Console.WriteLine(e1);
+            // //using object initializer
+            // Propertyemployee e2 = new Propertyemployee { Id = 231, Name = "pratik", Salary = 75000 };
+            // Console.WriteLine(e2);
+
+            // using property initializer student
+            //Autopropstudent a1 = new Autopropstudent();
+            //a1.Rollno = 345;
+            //a1.Name = "sagar";
+            //a1.Percentage = 78.98;
+            //Console.WriteLine(a1);
             //using object initializer
-            Propertyemployee e2 = new Propertyemployee { Id = 231, Name = "pratik", Salary = 75000 };
-            Console.WriteLine(e2);
+            //Autopropstudent a2 = new Autopropstudent { Rollno= 231, Name = "pratik", Percentage = 89.90 };
+            //Console.WriteLine(a2);
+
+            
+            
+                Staticmethod e1 = new Staticmethod("emp1", 23000);
+                Staticmethod e2 = new Staticmethod("emp2", 24000);
+                Staticmethod e3 = new Staticmethod("emp3", 24000);
+                 e1.CalculateSalary();
+                 e2.CalculateSalary();
+                 e3.CalculateSalary();
+
+
+                Console.WriteLine(e1);
+                Console.WriteLine(e2);
+                Console.WriteLine(e3);
+                Console.WriteLine(Staticmethod.TotalCount());
+            
+            
+
 
 
         }

@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Autopropstudent.cs" />
     <Compile Include="Constructorcourse.cs" />
     <Compile Include="Constructoremployee.cs" />
     <Compile Include="Constructorsudent.cs" />
@@ -54,6 +55,7 @@
     <Compile Include="Propertycourse.cs" />
     <Compile Include="Propertyemployee.cs" />
     <Compile Include="Propertystudent.cs" />
+    <Compile Include="Staticmethod.cs" />
     <Compile Include="Student.cs" />
   </ItemGroup>
   <ItemGroup>
