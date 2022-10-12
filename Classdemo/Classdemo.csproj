@@ -49,6 +49,7 @@
     <Compile Include="Constructorsudent.cs" />
     <Compile Include="Course.cs" />
     <Compile Include="Employee.cs" />
+    <Compile Include="Homeworkstudent.cs" />
     <Compile Include="product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

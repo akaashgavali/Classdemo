@@ -89,19 +89,23 @@ namespace Classdemo
 
             
             
-                Staticmethod e1 = new Staticmethod("emp1", 23000);
-                Staticmethod e2 = new Staticmethod("emp2", 24000);
-                Staticmethod e3 = new Staticmethod("emp3", 24000);
-                 e1.CalculateSalary();
-                 e2.CalculateSalary();
-                 e3.CalculateSalary();
+                //Staticmethod e1 = new Staticmethod("emp1", 23000);
+                //Staticmethod e2 = new Staticmethod("emp2", 24000);
+                //Staticmethod e3 = new Staticmethod("emp3", 24000);
+                // e1.CalculateSalary();
+                // e2.CalculateSalary();
+                // e3.CalculateSalary();
 
 
-                Console.WriteLine(e1);
-                Console.WriteLine(e2);
-                Console.WriteLine(e3);
-                Console.WriteLine(Staticmethod.TotalCount());
-            
+                //Console.WriteLine(e1);
+                //Console.WriteLine(e2);
+                //Console.WriteLine(e3);
+                //Console.WriteLine(Staticmethod.TotalCount());
+
+            Homeworkstudent s1 = new Homeworkstudent("Akash", 60, 60, 60);
+            s1.rollno = 132;
+            s1.Calculatemark();
+            Console.WriteLine(s1);
             
 
 
